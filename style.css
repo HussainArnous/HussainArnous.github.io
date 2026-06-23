@@ -24,3 +24,9 @@ body {
 .accent-text {
   color: #38bdf8 !important;
 }
+
+.hero-section {
+  min-height: 100vh;
+  padding-top: 120px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
