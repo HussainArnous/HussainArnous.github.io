@@ -30,3 +30,7 @@ body {
   padding-top: 120px;
   background: linear-gradient(135deg, #0f172a, #1e293b);
 }
+
+.section-space {
+  padding: 90px 0;
+}
