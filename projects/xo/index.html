@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X en O speeltje.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="pagina">
+    <header>
+        <h1 class="head">Cheesy Dev</h1>
+    </header>
+
+    <div class="box">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+   </div>
+
+    <div class="main"> 
+        <h2>Boter kaas en eieren</h2>
+        </div>
+
+        <div class="wie-tegen" id="players">Player 1 vs Player 2</div>
+
+        <div class="top-buttons">
+            <button class="btn">Home</button>
+            <button class="btn restart" id="restartBtn">Start again</button>
+        </div>
+
+        <div class="wie-speelt" id="status">Player</div>
+
+        <div class="hele">
+        <div class="sp1">Player 1:</div>
+        <div class="draw">Draw :</div>
+        <div class="sp2">Player 2:</div>
+        
+        </div>
+
+    <footer>&copy;Hussain Arnous</footer>
+    </div>
+
+<div class="modal" id="startmodal">
+  <div class="modal-box">
+    <h2>Start Game</h2>
+
+    <input id="playerX" type="text" placeholder="Player (X)">
+    <input id="playerO" type="text" placeholder="Player (O)">
+
+    <button id="startbtn" class="btn">Start</button>
+  </div>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
