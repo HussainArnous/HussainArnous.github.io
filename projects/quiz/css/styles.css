@@ -1,0 +1,101 @@
+#quiz-con{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px  300px 200px 100px 50px;
+    grid-template-areas: 
+    "h1 h1 h1"
+    ". vc ."
+    ". ant ."
+    "cn cn cn"
+    "ft ft ft";
+}
+body{
+    background-color: rgba(10, 10, 112, 0.751);
+}
+
+
+#vragen-con{
+    grid-area: vc;
+    text-align: center;
+
+}
+
+h1{
+    grid-area: h1;
+    background-color: orange;
+    text-align: center;
+}
+
+h2{
+    grid-area: h2;
+    background-color: orange;
+    text-align: center;
+}
+
+#antwoorden-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+    "b1 b2"
+    "b3 b4";
+    gap: 10px;
+    
+}
+.ant-btn{
+    grid-area: ant;
+}
+
+#controls{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "vor re vol";
+    grid-area: cn;
+}
+
+#next-button{
+    grid-area: vol;
+}
+
+#back-button{
+    grid-area: vor;
+}
+
+#result-msg{
+    grid-area: re;
+}
+
+#controls > p{
+    margin: auto;
+    font-size: 20px;
+}
+
+footer{
+    grid-area: ft;
+    text-align: center;
+    background-color: orange;
+}
+
+#back-button, #next-button{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+}
+
+.vraag > img{
+    /* width: 200px; */
+    height: 200px;
+}
+
+button:hover{
+    color: white;
+    background-color: orange;
+}
+
+
